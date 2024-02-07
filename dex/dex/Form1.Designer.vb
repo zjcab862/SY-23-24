@@ -33,6 +33,15 @@ Partial Class Form1
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.firstButton = New System.Windows.Forms.Button()
+        Me.nextButton = New System.Windows.Forms.Button()
+        Me.prevButton = New System.Windows.Forms.Button()
+        Me.lastButton = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -115,11 +124,101 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(39, 93)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(52, 20)
+        Me.Label1.TabIndex = 12
+        Me.Label1.Text = "Name:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(39, 157)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(92, 20)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "Released By:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(39, 277)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(93, 20)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Released on:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(39, 333)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(46, 20)
+        Me.Label4.TabIndex = 15
+        Me.Label4.Text = "Sales:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(39, 221)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(89, 20)
+        Me.Label5.TabIndex = 16
+        Me.Label5.Text = "Relase date:"
+        '
+        'firstButton
+        '
+        Me.firstButton.Location = New System.Drawing.Point(184, 415)
+        Me.firstButton.Name = "firstButton"
+        Me.firstButton.Size = New System.Drawing.Size(94, 29)
+        Me.firstButton.TabIndex = 17
+        Me.firstButton.Text = "First"
+        Me.firstButton.UseVisualStyleBackColor = True
+        '
+        'nextButton
+        '
+        Me.nextButton.Location = New System.Drawing.Point(384, 415)
+        Me.nextButton.Name = "nextButton"
+        Me.nextButton.Size = New System.Drawing.Size(94, 29)
+        Me.nextButton.TabIndex = 18
+        Me.nextButton.Text = "Next"
+        Me.nextButton.UseVisualStyleBackColor = True
+        '
+        'prevButton
+        '
+        Me.prevButton.Location = New System.Drawing.Point(284, 415)
+        Me.prevButton.Name = "prevButton"
+        Me.prevButton.Size = New System.Drawing.Size(94, 29)
+        Me.prevButton.TabIndex = 19
+        Me.prevButton.Text = "Previous"
+        Me.prevButton.UseVisualStyleBackColor = True
+        '
+        'lastButton
+        '
+        Me.lastButton.Location = New System.Drawing.Point(484, 415)
+        Me.lastButton.Name = "lastButton"
+        Me.lastButton.Size = New System.Drawing.Size(94, 29)
+        Me.lastButton.TabIndex = 20
+        Me.lastButton.Text = "Last"
+        Me.lastButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lastButton)
+        Me.Controls.Add(Me.prevButton)
+        Me.Controls.Add(Me.nextButton)
+        Me.Controls.Add(Me.firstButton)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Field4)
@@ -151,4 +250,13 @@ Partial Class Form1
     Friend WithEvents Field5 As TextBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Field1 As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents firstButton As Button
+    Friend WithEvents nextButton As Button
+    Friend WithEvents prevButton As Button
+    Friend WithEvents lastButton As Button
 End Class
