@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dollarcoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dollarcoin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="813axPlVxBL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\813axPlVxBL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="quarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quarter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="81iUuyr2R7L" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\81iUuyr2R7L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="71eRYwNWhGL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\71eRYwNWhGL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dime" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dime.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0757528037475_0_A1C1_1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0757528037475_0_A1C1_1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nickel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nickel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="43616__79364" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\43616__79364.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
