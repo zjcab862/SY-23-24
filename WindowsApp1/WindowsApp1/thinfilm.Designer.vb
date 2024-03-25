@@ -29,7 +29,10 @@ Partial Class thinfilm
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.thinPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label4
@@ -55,7 +58,7 @@ Partial Class thinfilm
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Button1.Location = New System.Drawing.Point(499, 277)
+        Me.Button1.Location = New System.Drawing.Point(511, 280)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(277, 43)
         Me.Button1.TabIndex = 9
@@ -102,11 +105,29 @@ Partial Class thinfilm
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Achieves wider application with the 360-degree flexible"
         '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(655, 238)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 22)
+        Me.NumericUpDown1.TabIndex = 13
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(591, 244)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(58, 16)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Quantity:"
+        '
         'thinfilm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -117,6 +138,7 @@ Partial Class thinfilm
         Me.Name = "thinfilm"
         Me.Text = "thinfilm"
         CType(Me.thinPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -129,4 +151,6 @@ Partial Class thinfilm
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents Label6 As Label
 End Class

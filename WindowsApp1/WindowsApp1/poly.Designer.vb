@@ -29,7 +29,10 @@ Partial Class poly
         Me.Label4 = New System.Windows.Forms.Label()
         Me.polyPB = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         CType(Me.polyPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label6
@@ -95,18 +98,36 @@ Partial Class poly
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Button1.Location = New System.Drawing.Point(485, 274)
+        Me.Button1.Location = New System.Drawing.Point(496, 274)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(277, 43)
         Me.Button1.TabIndex = 19
         Me.Button1.Text = "Add to Cart"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(589, 239)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(58, 16)
+        Me.Label5.TabIndex = 21
+        Me.Label5.Text = "Quantity:"
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(653, 233)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 22)
+        Me.NumericUpDown1.TabIndex = 20
+        '
         'poly
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
@@ -117,6 +138,7 @@ Partial Class poly
         Me.Name = "poly"
         Me.Text = "poly"
         CType(Me.polyPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -129,4 +151,6 @@ Partial Class poly
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label5 As Label
+    Friend WithEvents NumericUpDown1 As NumericUpDown
 End Class
