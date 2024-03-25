@@ -29,6 +29,6 @@
         dollars = dollars + 1
     End Sub
     Public Sub Buy()
-        If
+
     End Sub
 End Class

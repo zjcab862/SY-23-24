@@ -73,11 +73,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cart.Designer.vb">
+      <DependentUpon>cart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cart.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monovb.Designer.vb">
+      <DependentUpon>monovb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="monovb.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,16 +107,40 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="poly.Designer.vb">
+      <DependentUpon>poly.vb</DependentUpon>
+    </Compile>
+    <Compile Include="poly.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thinfilm.Designer.vb">
+      <DependentUpon>thinfilm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="thinfilm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monovb.resx">
+      <DependentUpon>monovb.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poly.resx">
+      <DependentUpon>poly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thinfilm.resx">
+      <DependentUpon>thinfilm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +154,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thin-film.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61d6ztszN1L._AC_UF894,1000_QL80_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The-Solar-Panel-Polycrystalline-Type.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
